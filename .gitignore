@@ -1,0 +1,37 @@
+# System special desktop services
+
+## Homedots is a synchronizing server for personal configuration such as dot files and directories underneath Home directory.
+## So due to its specility, we should place the .git directly under Home directory.
+
+## At first we exclude all contents underneath Home directory.
+/*
+
+## Now we make some exceptions.
+!.gitconfig
+!.gitignore
+!.zlogin
+!.zshrc
+!.ctags
+!.ghci
+!.racketrc
+
+!.vim/
+!.texlive/
+!.cabal/
+!Templates/
+!Sketch/
+
+# This directories is used for my projects, and there are routine shell scripts in it.
+!.gyoudmon.org/
+
+## At last we can exclude contents as usual.
+/**/.DS_Store
+/**/desktop.ini
+/**/Thumbs.db
+
+.vim/cache/
+.vim/.netrwhist
+.vim/.VimballRecord
+
+.cabal/tags
+.cabal/config.platform
