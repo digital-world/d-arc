@@ -6,15 +6,16 @@
 //  Copyright © 2020 WarGrey Ju. All rights reserved.
 //
 
-import UIKit
-import SpriteKit
-import GameplayKit
+import UIKit;
+import SpriteKit;
+import GameplayKit;
 
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
         
+        /*
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
@@ -30,6 +31,9 @@ class GameViewController: UIViewController {
             view.showsFPS = true
             view.showsNodeCount = true
         }
+        */
+        
+        print(self.view!);
     }
 
     override var shouldAutorotate: Bool {
