@@ -1,15 +1,15 @@
 //
-//  GameScene.swift
+//  DArcScene.swift
 //  D-Arc
 //
 //  Created by WarGrey Ju on 2020/2/1.
 //  Copyright © 2020 WarGrey Ju. All rights reserved.
 //
 
-import SpriteKit
-import GameplayKit
+import SpriteKit;
+import GameplayKit;
 
-class GameScene: SKScene {
+class DArcScene: SKScene {
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
