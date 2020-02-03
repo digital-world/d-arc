@@ -24,8 +24,8 @@ class DArcScene: SKScene {
             self.addChild(label);
 
             label.text = "D-Arc";
-            label.position.x = (self.size.width - label.frame.width) * 0.5;
-            label.position.y = (self.size.height - label.frame.height) * 0.5;
+            label.position.x = self.size.width * 0.5;
+            label.position.y = self.size.height * 0.5;
             
             label.alpha = 0.0;
             label.run(SKAction.fadeIn(withDuration: 2.0));
