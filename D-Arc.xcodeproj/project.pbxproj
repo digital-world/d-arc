@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4E7E024223E5CF79005FD9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E024123E5CF79005FD9BB /* AppDelegate.swift */; };
-		4E7E024823E5CF79005FD9BB /* DArcScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E024723E5CF79005FD9BB /* DArcScene.swift */; };
+		4E7E024823E5CF79005FD9BB /* DArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E024723E5CF79005FD9BB /* DArc.swift */; };
 		4E7E024F23E5CF79005FD9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7E024E23E5CF79005FD9BB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E7E023E23E5CF79005FD9BB /* D-Arc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D-Arc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7E024123E5CF79005FD9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E7E024723E5CF79005FD9BB /* DArcScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DArcScene.swift; sourceTree = "<group>"; };
+		4E7E024723E5CF79005FD9BB /* DArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DArc.swift; sourceTree = "<group>"; };
 		4E7E024E23E5CF79005FD9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E7E025323E5CF79005FD9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF6BF2723E5D88E00BC18FC /* ios-base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ios-base"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4E7E024123E5CF79005FD9BB /* AppDelegate.swift */,
-				4E7E024723E5CF79005FD9BB /* DArcScene.swift */,
+				4E7E024723E5CF79005FD9BB /* DArc.swift */,
 				4E7E024E23E5CF79005FD9BB /* Assets.xcassets */,
 				4E7E025323E5CF79005FD9BB /* Info.plist */,
 			);
@@ -129,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7E024823E5CF79005FD9BB /* DArcScene.swift in Sources */,
+				4E7E024823E5CF79005FD9BB /* DArc.swift in Sources */,
 				4E7E024223E5CF79005FD9BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
